@@ -1,0 +1,20 @@
+{% extends 'base_layout.html' %}
+{% load static %}
+
+<!DOCTYPE html>
+{% block content %}
+  <head>
+    <meta charset="utf-8">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="{% static 'homepage-styles.css' %}">
+  </head>
+  <body>
+    <section class="hero">
+      <div class="site-description">
+        <h2>Shop with difference! We offer you the best prices</h2>
+        <p>We compare the prices of your shopping basket across all e-commerce platforms.</p>
+        <br>
+      </div>
+    </section>
+  </body>
+{% endblock %}
